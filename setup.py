@@ -49,7 +49,7 @@ setup(
         "dev": [
             "pytest~=7.1",
             "flake8~=4.0",
-            "black~=22.3",
+            "black>=22.3,<24.0",
             "isort~=5.10",
             "autoflake~=1.4",
             "mypy>=0.942",
